@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Những địa điểm nổi bật ở Huế</title>
+    <link rel="stylesheet" href="blogcn.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="homenut"><img src="anh/home.png" alt="home"></a>
+            <h4><b>Nguyễn Bá Anh Minh</b></h4>
+            <h4><p>CNTT_I K48</p></h4>
+    </header>
+<main>
+    <h1>Những địa điểm nổi bật tại Huế</h1>
+
+    <div class="location">
+        <h2>Đại Nội Huế</h2>
+        <img src="anh/kham-pha-dau-an-lich-su-co-do-dai-noi-hue-hoang-thanh-hue-202203251506293246.jpg" alt="Đại Nội Huế">
+        <p class="description">Đại Nội Huế là quần thể di tích lịch sử của triều Nguyễn, bao gồm Hoàng Thành và Tử Cấm Thành, một trong những di sản văn hóa thế giới được UNESCO công nhận.</p>
+    </div>
+
+    <div class="location">
+        <h2>Lăng Khải Định</h2>
+        <img src="anh/lang-khai-dinh.jpg" alt="Lăng Khải Định">
+        <p class="description">Lăng Khải Định là sự kết hợp độc đáo giữa kiến trúc Đông và Tây, nổi bật với các chi tiết trang trí công phu bằng sành, sứ và thủy tinh.</p>
+    </div>
+
+    <div class="location">
+        <h2>Chùa Thiên Mụ</h2>
+        <img src="anh/5091635992794.jpeg" alt="Chùa Thiên Mụ">
+        <p class="description">Chùa Thiên Mụ là biểu tượng của Huế, nằm bên bờ sông Hương, mang đến không gian yên tĩnh và vẻ đẹp thơ mộng.</p>
+    </div>
+
+    <div class="location">
+        <h2>Sông Hương</h2>
+        <img src="anh/song-huong-Hue-Thumb_1624502678.webp" alt="Sông Hương">
+        <p class="description">Sông Hương nổi tiếng với dòng nước hiền hòa và khung cảnh thơ mộng, là biểu tượng của cố đô Huế.</p>
+    </div>
+
+    <div class="location">
+        <h2>Núi Bạch Mã</h2>
+        <img src="anh/nui-bach-ma-hue-1.jpg" alt="Núi Bạch Mã">
+        <p class="description">Núi Bạch Mã nổi bật với khung cảnh thiên nhiên hùng vĩ, những dòng suối và thác nước tuyệt đẹp, là điểm đến lý tưởng cho những người yêu thích khám phá.</p>
+    </div>
+
+    <div class="location">
+        <h2>Biển Lăng Cô</h2>
+        <img src="anh/bien-lang-co-4.jpg" alt="Biển Lăng Cô">
+        <p class="description">Biển Lăng Cô có bãi cát trắng mịn, nước biển trong xanh, là địa điểm lý tưởng để tận hưởng thiên nhiên và các món hải sản tươi ngon.</p>
+    </div>
+</main>
+<div id="backToTop" onclick="scrollToTop()">👆</div>
+    <script>
+        window.onscroll = function() {
+            var backToTopBtn = document.getElementById("backToTop");
+            if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+                backToTopBtn.style.display = "block";
+            } else {
+                backToTopBtn.style.display = "none";
+            }
+        };
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+</body>
+</html>
